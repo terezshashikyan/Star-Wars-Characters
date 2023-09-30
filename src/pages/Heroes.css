@@ -3,18 +3,17 @@
   flex-direction: column;
   gap: 48px;
   margin-bottom: 100px;
+  max-width: 1600px;
+  margin: 146px auto;
+  width: 100%;
 }
 
 .heroes-container {
   display: flex;
   gap: 32px;
   flex-wrap: wrap;
-  max-width: 1600px;
-  margin: 146px auto;
-  width: 100%;
-  media: {
-    
-  }
+
+ padding: 0 32px;
 }
 
 .pagination-wrapper {

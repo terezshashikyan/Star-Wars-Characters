@@ -6,7 +6,7 @@
   flex-direction: column;
   gap: 32px;
   align-items: center;
-  width: calc((100% - 64px) / 3);
+  width: calc((100% - 128px) / 3);
 }
 .hero-name {
   font-size: 32px;
@@ -37,23 +37,20 @@
   display: flex;
   gap: 32px;
 }
-.close {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding: 6px;
-  border-radius: 50%;
-  right: 10px;
-  top: 10px;
-  z-index: 9999;
-  cursor: pointer;
-}
-.close:hover {
-  background: rgba(0, 0, 0, 0.04);
-}
+
 .hero-info-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+@media screen and (max-width:1460px) {
+  .hero-item{
+    width: calc((100% - 96px)/2);
+  }
+}
+@media screen and (max-width:1000px) {
+  .hero-item{
+    width: calc(100% - 64px);
+  }
 }
