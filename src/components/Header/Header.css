@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 160px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  max-width: 784px;
+  width: 100%;
+}
+.header-title {
+  font-size: 82px;
+  font-weight: 700;
+  line-height: 112%;
+  color: #000;
+  margin: 0;
+}
+.header-description {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 142%;
+  color: #000;
+  margin: 0;
+}

@@ -1,0 +1,57 @@
+.heroes-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 100px;
+}
+
+.heroes-container {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  max-width: 1600px;
+  margin: 146px auto;
+  width: 100%;
+  media: {
+    
+  }
+}
+
+.pagination-wrapper {
+  display: flex;
+  gap: 64px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-button {
+  padding: 10px;
+}
+
+.search-input {
+  max-width: 800px;
+  width: 100%;
+  border-radius: 8px 0 0 8px;
+  padding: 16px 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.search-input::placeholder {
+  font-size: 18px;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  margin: 48px auto 0;
+}
+.input-container > button {
+  padding: 18px 10px;
+  background: #0f314d;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}

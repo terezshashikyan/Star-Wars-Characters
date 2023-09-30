@@ -1,0 +1,27 @@
+/* .wrapper {
+  animation: 0.8s linear infinite spinner;
+  -webkit-animation: 0.8s linear infinite spinner;
+  animation-play-state: inherit;
+  will-change: transform;
+  position: absolute;
+} */
+.spinner-wrapper {
+  text-align: center;
+  margin-top: 46px;
+}
+.spinner-wrapper > img {
+  animation: 0.8s linear infinite spinner;
+  -webkit-animation: 0.8s linear infinite spinner;
+  animation-play-state: inherit;
+  transform: translate3d(-50%, -50%, 0);
+  will-change: transform;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
